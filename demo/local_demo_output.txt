@@ -1,0 +1,14 @@
+PS D:\look_at_pdf> python local_demo.py
+{
+  "code": 0,
+  "msg": "success",
+  "stat": {
+    "page_num": 2,
+    "table_num": 2,
+    "avg_accuracy": 99.74
+  },
+  "saved_to": "D:\\look_at_pdf\\outputs\\local_demo_output.md",
+  "md_preview": "## 第1页\n\n扫描合同样例\n\n本文件用于验证look_at_pdf的OCR、分页和表格Markdown输出。\n\n以下表格必须被转换为标准Markdown表格，而不是纯文本。\n\n| 项目 | 数量 | 金额 |\n| --- | --- | --- |\n| 扫描页 | 2 | 120元 |\n| 表格识别 | 1 | 80元 |\n| 合计 | 3 | 200元 |\n\n备注：图像增强开启后，可降低轻微噪声和倾斜造成的识别误差。\n\n---\n\n## 第2页\n\n第二页\n\n本页包含验收标准和另一张明细表。\n\n| 标准 | 目标 |\n| --- | --- |\n| 平均置信度 | 90%以上 |\n| 分页标记 | ##第X页 |\n| 输出格式 | Markdown |\n\n如果文件为空、损坏或加密，程序应返回明确错误码。\n"
+}
+
+[exit code] 0
