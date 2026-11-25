@@ -169,3 +169,5 @@ skills.md         工具契约（入参、返回、错误码）
 - 表格检测基于**线框**，无边框表格不会被重建，会退化为普通文本行。
 - 版面按"从上到下、从左到右"线性输出，多栏排版、图文混排的阅读顺序可能不准。
 - 整页 220 DPI 渲染 + OCR，一页通常需要数秒，不适合批量处理几百页的文档。
+
+[![M8ven Score](https://m8ven.ai/badge/mcp/kd-max-735-look-at-pdf-z9sze8?v=28f4388f379d9aeb0e99118f266ad6dc)](https://m8ven.ai/mcp/kd-max-735-look-at-pdf-z9sze8?s=readme)
